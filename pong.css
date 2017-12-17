@@ -1,0 +1,80 @@
+#heading{
+  width: 810px;
+  margin-left: 100px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+#box{
+  background-image: url(http://3.bp.blogspot.com/-eCo-1AJxBTs/U-4BwvpqiAI/AAAAAAAAAPQ/o3bLBrJodhI/s1600/Football_Pitch.jpg);
+  background-size: 800px;
+   width: 800px;
+   height: 560px;
+   background-color: white;
+   border: 5px solid black;
+   position: relative;
+   overflow: hidden;
+}
+
+#gameOver{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  top:35%;
+  left:37%;
+  visibility: hidden;
+}
+
+#gameOverMessage{
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  top:30%;
+  left:23%;
+  visibility: hidden;
+}
+
+.ob{
+   position: absolute;
+   border: 10px;
+}
+
+#ball{
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+}
+body{
+  background-image: url(https://img.yle.fi/urheilu/jalkapallo/article7681907.ece/ALTERNATES/w960/messiEPA10122014.jpg);
+  /*background-image: image(messi.jpg);*/
+  background-size: 2200px;
+}
+
+.title{
+  height: 70px;
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.name{
+  height: 70px;
+  width: 40%;
+  padding-left: 10%;
+  text-align: center;
+  float: left;
+}
+#score{
+  height: 70px;
+  width: 40%;
+  float: left;
+  padding-left: 10%;
+}
+#cpuPaddle{
+  position: absolute;
+  border: 10px;
+  left: 768px;
+}
