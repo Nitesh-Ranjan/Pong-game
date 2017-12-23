@@ -1,5 +1,6 @@
 const http = require("http");
 const fs = require("fs");
+const PORT = 8000;
 
 const send404Response = function(res){
   res.writeHead(404,{"Content-Type": "text/plain"});
@@ -34,5 +35,5 @@ const onRequest = function(req,res){
 }
 
 const server = http.createServer(onRequest);
-server.listen(1111);
+server.listen(`Server is listening at ${PORT}`);
 console.log("server is now running");
