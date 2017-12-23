@@ -10,8 +10,8 @@ let y;
 let playerY;
 let cpuPaddle;
 let flag;
-
 let speed = 3; // pixels/step
+
 const setInitialValues = function() {
   box = document.getElementById("box");
   let gameOver = document.getElementById("gameOver");
